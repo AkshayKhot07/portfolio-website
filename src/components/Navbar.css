@@ -1,5 +1,5 @@
 .navbar {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .navbar ul {
@@ -7,7 +7,7 @@
   list-style: none;
   column-gap: 30px;
   background-color: lightgrey;
-  padding: 30px 0;
+  padding: 20px 0;
   margin: 0;
 }
 

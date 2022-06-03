@@ -1,0 +1,10 @@
+.footer {
+  border-top: 2px solid #281e5d;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+  /* background-color: pink; */
+  padding: 10px 0;
+}

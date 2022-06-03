@@ -9,11 +9,14 @@ import Projects from "./pages/projects/Projects.js";
 import Articles from "./pages/articles/Articles.js";
 import Resume from "./pages/resume/Resume.js";
 import Navbar from "./components/Navbar.js";
+import Sidebar from "./components/Sidebar.js";
+import Footer from "./components/Footer.js";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Sidebar />
         <div className="container">
           <Navbar />
           <Switch>
@@ -31,6 +34,7 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <Footer />
       </BrowserRouter>
     </div>
   );

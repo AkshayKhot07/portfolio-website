@@ -1,0 +1,18 @@
+.sidebar {
+  /* min-height: 100vh; */
+  border-right: 2px solid #281e5d;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
