@@ -27,3 +27,7 @@
 .navbar .nav-resume {
   margin-right: 10rem;
 }
+
+.navbar a.active {
+  border-bottom: solid 2px #281e5d;
+}

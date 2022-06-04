@@ -1,4 +1,6 @@
-//styles
+import { useState } from "react";
+
+//styles and icons
 import "./Home.css";
 import ProfilePic from "../../assets/profilepic.jfif";
 import JavascriptIcon from "../../assets/techntools/javascript.svg";
@@ -11,6 +13,16 @@ import GitIcon from "../../assets/techntools/git.svg";
 import WebpackIcon from "../../assets/techntools/webpack.svg";
 
 export default function Home() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    console.log(name, email, message);
+  };
+
   return (
     <div className="home">
       <div className="home-intro">
@@ -27,6 +39,7 @@ export default function Home() {
           <img src={ProfilePic} alt="profile picture" />
         </div>
       </div>
+
       <div className="home-tech-tools">
         <h3>TECHNOLOGIES AND TOOLS</h3>
         <div className="home-tech-tools-list">
@@ -65,13 +78,39 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="contact">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
-          voluptate accusantium, eos nobis cumque laboriosam odio deleniti id
-          sit eius? Itaque rem quod minus a sequi exercitationem consectetur at
-          maiores.
-        </p>
+
+      <div className="home-contact">
+        <form onSubmit={handleSubmit}>
+          <h3>Drop a message</h3>
+          <label>
+            <input
+              type="text"
+              required
+              placeholder="Full Name"
+              onChange={(e) => setName(e.target.value)}
+              value={name}
+            />
+          </label>
+          <label>
+            <input
+              type="email"
+              required
+              placeholder="Email"
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
+            />
+          </label>
+          <label>
+            <textarea
+              rows="6"
+              required
+              placeholder="Message"
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
+            />
+          </label>
+          <button>Submit</button>
+        </form>
       </div>
     </div>
   );

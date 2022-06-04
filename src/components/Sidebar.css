@@ -1,10 +1,10 @@
 .sidebar {
-  /* min-height: 100vh; */
   border-right: 2px solid #281e5d;
+  padding-top: 15rem;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
