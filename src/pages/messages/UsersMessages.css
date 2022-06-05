@@ -1,0 +1,29 @@
+.messages {
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.user-message {
+  padding: 10px;
+  min-height: max-content;
+  height: 200px;
+  width: 400px;
+  /* border: 1px solid black; */
+
+  box-shadow: 0 0 10px darkgray;
+  border-radius: 5px;
+}
+
+.user-message h4,
+.user-message p {
+  margin-bottom: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.user-message div {
+  text-align: start;
+}

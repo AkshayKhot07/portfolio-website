@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { projectFirestore } from "../../firebase/config";
 
 //styles and icons
 import "./Home.css";
@@ -20,7 +21,15 @@ export default function Home() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(name, email, message);
+    // console.log(name, email, message);
+    projectFirestore.collection("usersmessage").add({
+      name,
+      email,
+      message,
+    });
+    setName("");
+    setEmail("");
+    setMessage("");
   };
 
   return (

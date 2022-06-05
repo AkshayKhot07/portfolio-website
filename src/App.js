@@ -11,6 +11,7 @@ import Resume from "./pages/resume/Resume.js";
 import Navbar from "./components/Navbar.js";
 import Sidebar from "./components/Sidebar.js";
 import Footer from "./components/Footer.js";
+import UsersMessages from "./pages/messages/UsersMessages.js";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
             </Route>
             <Route path="/resume">
               <Resume />
+            </Route>
+            <Route path="/usersmessages">
+              <UsersMessages />
             </Route>
           </Switch>
         </div>
