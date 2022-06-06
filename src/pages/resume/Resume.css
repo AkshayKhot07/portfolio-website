@@ -1,0 +1,81 @@
+.resume-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 50px;
+  justify-content: center;
+}
+
+/* .resume-left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.resume-left-section .about,
+.resume-left-section .education,
+.resume-left-section .internship,
+.resume-right-section .work-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-details,
+.education-details,
+.internship-details {
+  margin: 20px 0px;
+  padding: 20px;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px lightgray;
+}
+
+.work-experience-details {
+  width: 600px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px lightgray;
+  margin: 20px 0px;
+  padding: 20px;
+}
+
+.about-details .title,
+.education-details .title,
+.internship-details .title,
+.work-experience-details .title {
+  font-size: 14px;
+  width: max-content;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  color: darkgray;
+  letter-spacing: 1px;
+  border-bottom: 2px solid darkgray;
+}
+
+.about-details p,
+.education-details h4,
+.education-details p,
+.internship-details h4,
+.internship-details p,
+.work-experience-details h4,
+.work-experience-details p {
+  margin-top: 10px;
+}
+
+.education-details .cgpa,
+.internship-details .desp,
+.work-experience-details .desp {
+  margin-top: 10px;
+  padding: 10px 0;
+  color: darkgray;
+  border-top: 1px solid lightgray;
+}
+
+.work-experience-details ul {
+  margin-left: 10px;
+}
+
+.work-experience-details ul p {
+  color: black;
+  font-style: italic;
+}
