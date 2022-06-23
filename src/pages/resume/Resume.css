@@ -1,24 +1,25 @@
 .resume-container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto auto;
   padding: 10px;
   gap: 50px;
-  justify-content: center;
 }
 
-/* .resume-left-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
 .resume-left-section .about,
-.resume-left-section .education,
 .resume-left-section .internship,
 .resume-right-section .work-experience {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.resume-left-section .education {
+  display: flex;
+  flex-direction: column;
+  /* align-items: stretch; */
+}
+
+.resume-left-section .education h2 {
+  text-align: center;
 }
 
 .about-details,
@@ -26,13 +27,11 @@
 .internship-details {
   margin: 20px 0px;
   padding: 20px;
-  width: 500px;
   border-radius: 5px;
   box-shadow: 0 0 10px lightgray;
 }
 
 .work-experience-details {
-  width: 600px;
   border-radius: 5px;
   box-shadow: 0 0 10px lightgray;
   margin: 20px 0px;

@@ -24,7 +24,7 @@ export default function Resume() {
           <div className="education-details">
             <div className="title">Batch of 2016</div>
             <h4>B.E, Computer Engineering</h4>
-            <p>RCOE, University of Mumbai</p>
+            <p>RCOE</p>
             <div className="cgpa">CGPA: 6.11</div>
           </div>
         </div>
