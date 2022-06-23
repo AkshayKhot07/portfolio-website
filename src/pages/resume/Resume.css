@@ -44,6 +44,7 @@
 .work-experience-details .title {
   font-size: 14px;
   width: max-content;
+  text-align: center;
   margin: 0 auto;
   padding-bottom: 5px;
   color: darkgray;
