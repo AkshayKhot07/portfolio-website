@@ -3,12 +3,38 @@ import TodoListIcon from "../../assets/projectIcons/todoList.PNG";
 import WeatherAppIcon from "../../assets/projectIcons/weatherApp.PNG";
 import EtchaSketchIcon from "../../assets/projectIcons/etchaSketch.PNG";
 import CalculatorIcon from "../../assets/projectIcons/calculator.PNG";
+import EcommerceIcon from "../../assets/projectIcons/ecommerce.PNG";
 
 export default function Projects() {
   return (
     <div className="projects">
       <h2>Projects</h2>
       <div className="projects-container">
+        <div className="project">
+          <h4>Shopping Cart</h4>
+          <img src={EcommerceIcon} alt="shopping cart preview" />
+          <div>
+            <a
+              href="https://github.com/AkshayKhot07/e-commerce-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source
+            </a>
+            <a
+              href="https://e-commerce-app-b7b4c.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+          <p>
+            A shopping cart (React and Firebase) application that makes you add
+            products to the cart, track orders along with user authentication.
+          </p>
+        </div>
+
         <div className="project">
           <h4>Todo List</h4>
           <img src={TodoListIcon} alt="todo list preview" />
@@ -21,7 +47,7 @@ export default function Projects() {
               Source
             </a>
             <a
-              href="https://akshaykhot07.github.io/weather-app/"
+              href="https://akshaykhot07.github.io/todo-list/"
               target="_blank"
               rel="noreferrer"
             >
@@ -81,31 +107,6 @@ export default function Projects() {
           <p>
             A grid based sketch web app to draw and scribble your imagination.
             Toggle grid sizes, doddle sketches and repeat.
-          </p>
-        </div>
-
-        <div className="project">
-          <h4>Todo List</h4>
-          <img src={TodoListIcon} alt="todo list preview" />
-          <div>
-            <a
-              href="https://github.com/AkshayKhot07/todo-list"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Source
-            </a>
-            <a
-              href="https://akshaykhot07.github.io/weather-app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo
-            </a>
-          </div>
-          <p>
-            A Todo app to maintain your daily & weekly todos, along with a
-            projects section to track, maintain todos of respective project.
           </p>
         </div>
 

@@ -6,7 +6,7 @@ import "./App.css";
 //pages and components
 import Home from "./pages/home/Home.js";
 import Projects from "./pages/projects/Projects.js";
-import Articles from "./pages/articles/Articles.js";
+import Article from "./pages/article/Article.js";
 import Resume from "./pages/resume/Resume.js";
 import Navbar from "./components/Navbar.js";
 import Sidebar from "./components/Sidebar.js";
@@ -28,7 +28,7 @@ function App() {
               <Projects />
             </Route>
             <Route path="/articles">
-              <Articles />
+              <Article />
             </Route>
             <Route path="/resume">
               <Resume />

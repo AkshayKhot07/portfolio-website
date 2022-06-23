@@ -1,0 +1,11 @@
+.articles-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.articles-container p {
+  font-size: 20px;
+  padding: 20px 0px;
+}

@@ -12,6 +12,7 @@ import FirebaseIcon from "../../assets/techntools/firebase.svg";
 import JestIcon from "../../assets/techntools/jest.svg";
 import GitIcon from "../../assets/techntools/git.svg";
 import WebpackIcon from "../../assets/techntools/webpack.svg";
+import TerminalIcon from "../../assets/techntools/terminal.png";
 
 export default function Home() {
   const [name, setName] = useState("");
@@ -73,9 +74,9 @@ export default function Home() {
             <img src={FirebaseIcon} alt="firebase icon" />
             <p>Firebase</p>
           </div>
-          <div className="jest-icon">
-            <img src={JestIcon} alt="jest icon" />
-            <p>Jest</p>
+          <div className="terminal-icon">
+            <img src={TerminalIcon} alt="terminal icon" />
+            <p>Terminal</p>
           </div>
           <div className="git-icon">
             <img src={GitIcon} alt="git icon" />

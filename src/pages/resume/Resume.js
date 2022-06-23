@@ -9,10 +9,12 @@ export default function Resume() {
           <div className="about-details">
             <div className="title">About Me</div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui culpa
-              quas, animi facere delectus consequuntur impedit ratione, rem unde
-              repellendus, quasi ab eveniet sequi ad minus sapiente voluptates
-              recusandae! Voluptatibus.
+              An aspiring software engineer equal parts analytical and creative
+              thinker with a passion for disruptive technologies. Love to
+              explore new ideas, collaborate and work along with open-minded
+              opinionated people to achieve defined set of goals. Previously
+              worked as a network engineer & digital marketer, and now looking
+              for a career transition into the software development domain.
             </p>
           </div>
         </div>
