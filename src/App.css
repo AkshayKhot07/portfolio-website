@@ -24,3 +24,30 @@
   grid-column-start: -1;
   grid-column-end: -4;
 }
+
+@media (max-width: 650px) {
+  .App {
+    display: grid;
+    width: 100%;
+    /* height: 100vh; */
+    grid-template-areas:
+      "container container container"
+      "container container container"
+      "footer footer footer";
+    /* grid-template-columns: auto; */
+    grid-template-rows: 1fr auto;
+    min-height: 100vh;
+  }
+
+  .App .container {
+    grid-area: container;
+  }
+
+  .App .sidebar {
+    display: none;
+  }
+
+  .App .footer {
+    grid-area: footer;
+  }
+}

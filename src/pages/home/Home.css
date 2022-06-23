@@ -41,6 +41,10 @@
   }
 }
 
+.home-social-links {
+  display: none;
+}
+
 /* Middle Section */
 
 .home-tech-tools {
@@ -117,4 +121,54 @@
   border-color: #281e5d;
   background-color: white;
   height: 30px;
+}
+
+@media (max-width: 650px) {
+  .home-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .home-intro-summary {
+    text-align: center;
+    padding: 0px 10px;
+  }
+
+  .home-contact input,
+  .home-contact textarea {
+    width: 300px;
+  }
+
+  .home-tech-tools-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0px;
+  }
+
+  .home-social-links {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+  }
+
+  .home-social-links .github-social {
+    padding: 0 10px;
+  }
+
+  .home-social-links hr {
+    background-color: #c7666c;
+    border-width: 0;
+    height: 2px;
+    width: 80px;
+  }
 }

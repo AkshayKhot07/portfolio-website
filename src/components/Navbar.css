@@ -31,3 +31,13 @@
 .navbar a.active {
   border-bottom: solid 2px #281e5d;
 }
+
+@media (max-width: 650px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .navbar .nav-resume {
+    margin-right: 10px;
+  }
+}

@@ -13,6 +13,9 @@ import JestIcon from "../../assets/techntools/jest.svg";
 import GitIcon from "../../assets/techntools/git.svg";
 import WebpackIcon from "../../assets/techntools/webpack.svg";
 import TerminalIcon from "../../assets/techntools/terminal.png";
+import LinkedinIcon from "../../assets/linkedin.png";
+import GithubIcon from "../../assets/github2.png";
+import TwitterIcon from "../../assets/twitter.png";
 
 export default function Home() {
   const [name, setName] = useState("");
@@ -47,6 +50,38 @@ export default function Home() {
         </div>
         <div className="home-intro-displaypic">
           <img src={ProfilePic} alt="profile picture" />
+        </div>
+
+        <div className="home-social-links">
+          <hr />
+          <div className="linkedin-social">
+            <a
+              href="https://www.linkedin.com/in/akshay-khot-088b41118/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={LinkedinIcon} alt="linkedin account" />
+            </a>
+          </div>
+          <div className="github-social">
+            <a
+              href="https://github.com/AkshayKhot07"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={GithubIcon} alt="github account" />
+            </a>
+          </div>
+          <div className="twitter-social">
+            <a
+              href="https://twitter.com/akshayKhot07"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={TwitterIcon} alt="twitter account" />
+            </a>
+          </div>
+          <hr />
         </div>
       </div>
 
