@@ -5,20 +5,18 @@
 }
 
 .projects-container {
-  width: 1100px;
-  padding: 20px;
-
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   row-gap: 50px;
   column-gap: 40px;
-  justify-content: flex-start;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 
 .projects h2 {
-  /* text-align: center; */
-  margin: 20px 0px;
+  margin: 20px 0px 30px 0px;
 }
 
 .project {
