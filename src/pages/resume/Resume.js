@@ -71,25 +71,26 @@ export default function Resume() {
             <ul className="desp">
               <p>Associate (August'20 - November'21)</p>
               <li>
-                Established and cultivated relationship with the company’s
-                clients. Providing on-site support and telephone support to
-                clients
+                Created yearly marketing media (budgeting) plans which varied
+                across different advertising platforms, thereby implementing a
+                360° marketing strategy
               </li>
               <li>
-                Implemented social media strategies and maintained a strong
-                social media presence for the clients
+                Extensively trained new members of the team on understanding
+                marketing campaign structure, execution and reporting of the
+                client.
               </li>
+
               <p>Analyst (April'19 - July'20)</p>
               <li>
-                Proactively introduced new products to the clients thereby
-                ensuring up-selling activities. Resolved client queries and
-                founded solutions to client issues such as billing and new
-                project requirements
+                Effectively planned, managed and executed paid google search,
+                display and facebook marketing campaigns along with market
+                research & competitor analysis
               </li>
               <li>
-                Managed the account internal processes and deliverables from
-                start to end of the projects assigned, thereby negotiating and
-                closing contracts and delivering customer values
+                Created extensive reports, presentation for the client on a
+                monthly and quarterly basis by leveraging reporting tools like
+                adobe and google analytics
               </li>
             </ul>
           </div>
