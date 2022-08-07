@@ -8,7 +8,7 @@ export default function Navbar() {
     <nav className="navbar">
       <ul>
         <li className="logo">
-          <span>Akshay Khot</span>
+          <span>AK</span>
         </li>
         <li className="nav-home">
           <NavLink exact to="/">

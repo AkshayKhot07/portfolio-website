@@ -9,6 +9,7 @@
   /* background-color: lightgrey; */
   padding: 20px 0;
   margin: 0;
+  align-items: center;
 }
 
 .navbar a {
@@ -18,6 +19,9 @@
 
 .navbar .logo {
   margin-left: 20px;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #323232;
 }
 
 .navbar .nav-home {
