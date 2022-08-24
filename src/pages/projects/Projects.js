@@ -56,8 +56,9 @@ export default function Projects() {
             </a>
           </div>
           <p>
-            A shopping cart (React and Firebase) application that makes you add
-            products to the cart, track orders along with user authentication.
+            A movie application created using React and Redux that showcases
+            trending movies, let's users search for movies and gives details
+            about it.
           </p>
         </div>
 
