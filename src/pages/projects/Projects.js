@@ -4,6 +4,7 @@ import WeatherAppIcon from "../../assets/projectIcons/weatherApp.PNG";
 import EtchaSketchIcon from "../../assets/projectIcons/etchaSketch.PNG";
 import CalculatorIcon from "../../assets/projectIcons/calculator.PNG";
 import EcommerceIcon from "../../assets/projectIcons/ecommerce.PNG";
+import MovieApp from "../../assets/projectIcons/movieApp.PNG";
 
 export default function Projects() {
   return (
@@ -23,6 +24,31 @@ export default function Projects() {
             </a>
             <a
               href="https://e-commerce-app-b7b4c.web.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          </div>
+          <p>
+            A shopping cart (React and Firebase) application that makes you add
+            products to the cart, track orders along with user authentication.
+          </p>
+        </div>
+
+        <div className="project">
+          <h4>Movie App</h4>
+          <img src={MovieApp} alt="movie app preview" />
+          <div>
+            <a
+              href="https://github.com/AkshayKhot07/movie-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source
+            </a>
+            <a
+              href="https://movie-app-akshaykhot07.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
