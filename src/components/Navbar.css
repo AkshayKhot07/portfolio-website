@@ -45,3 +45,9 @@
     margin-right: 10px;
   }
 }
+
+.resume-navlink {
+  display: flex;
+  align-items: center;
+  column-gap: 2px;
+}

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import Resume from "../assets/AkshayKhot_Resume.pdf";
 
 //styles
 import "./Navbar.css";
@@ -22,7 +23,10 @@ export default function Navbar() {
           <NavLink to="/articles">Articles</NavLink>
         </li>
         <li className="nav-resume">
-          <NavLink to="/resume">Resume</NavLink>
+          <NavLink to={Resume} target="_blank" className="resume-navlink">
+            <span>Resume</span>
+            <i className="ri-external-link-line"></i>
+          </NavLink>
         </li>
       </ul>
     </nav>
