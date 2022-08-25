@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import Resume from "../assets/AkshayKhot_Resume.pdf";
+import Resume from "../assets/Akshay_Khot_Resume.pdf";
 
 //styles
 import "./Navbar.css";
